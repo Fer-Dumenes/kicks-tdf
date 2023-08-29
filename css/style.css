@@ -1,0 +1,276 @@
+/*esto es index.hmtl*/
+body {
+    background-color: #afaeae;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*INICIO DE ENCABEZADO O HEADER*/
+header {
+    /*poner en la misma linea las listas e imagenes*/
+    display: flex;
+    /*alinear listas*/
+    align-items: center;
+    /*acomodo de textos*/
+    justify-content: space-between;
+    /*borde*/
+    border-bottom: 2px solid darkmagenta;
+    /*que se achique parejo*/
+    flex-wrap: wrap;
+}
+
+header img {
+    /*ancho*/
+    width: 5rem;
+    /*alto*/
+    height: 2rem;
+}
+
+header nav ul {
+    /*sacar viñeta de la lista*/
+    list-style-type: none;
+    /*alinear la lista*/
+    display: flex;
+}
+
+header nav ul li {
+    /*margen de espacio entre listas*/
+    margin: 5px;
+}
+
+header nav ul li a {
+    /*color, tamaño,fuente y sacar subrayado*/
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+/*FIN DE ENCABEZADO O HEADER*/
+
+/*ESTE ES EL FOOTER*/
+footer {
+    /*poner en la misma linea las listas e imagenes*/
+    display: flex;
+    margin-top: auto;
+    text-align: center;
+}
+
+footer img {
+    /*ancho*/
+    width: 5rem;
+    /*alto*/
+    height: 2rem;
+}
+footer p{
+    text-align: center;
+}
+/*FIN DEL FOOTER*/
+
+/*INICIO DE BIENVENIDA*/
+
+.logo-principal{ display:flex;
+    flex-wrap: wrap;
+}
+
+section.logo-principal img{
+    /*alto*/
+    height: 500px;
+    /*ancho*/
+    width: 400px;
+}
+
+section h1 {
+    color: darkmagenta;
+    font-size: 60px;
+    text-align: center;
+    width: 510px;
+    height: 150px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 120px;
+    margin-top: 0px;
+}
+
+/*FIN DE BIENVENIDA*/
+
+
+/*trabajo de imagenes con section
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor img{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 150px;
+}
+ .info-productos{
+    text-align: center;
+
+ }
+
+/*trabajo de imagen con section*/
+
+
+/*trabajo de imagen con div*/
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.cointener img{
+    background-color: aqua;
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+
+.productos h2{
+    position: relative;
+    top: -30px;
+}
+
+.productos a{
+    position: relative;
+    top: -40px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*trabajo de imagen con div*/
+
+
+/*ADEMAS TAMBIEN*/
+h2{ 
+    font-size:  2rem;
+    text-align: center;
+}
+
+
+/*NUEVOS PRODUCTOS*/
+
+
+.segunda-parte div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    padding: 0px 0px 0px 200px;
+    column-gap: 5px;
+
+}
+
+.nuevos-productos img{
+    max-width: 150px;
+    
+}
+
+
+
+/*aca termina index.html*/
+
+
+/*aca empieza CATALOGO.html*/
+
+
+
+h1.catalogo {
+    color: black;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.gallery{ display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery .gallery-item img{
+   max-width: 100%;
+}
+
+
+/*aca termina CATALOGO.HTML*/
+
+
+/*aca empieza NOSOTROS.html*/
+
+.logo{ display:flex;
+    flex-wrap: wrap;
+}
+
+.logo h1{ 
+    color: darkmagenta;
+    font-size: 60px;
+    text-align: center;
+    width: 510px;
+    height: 150px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 120px;
+    margin-top: 0px;
+}
+
+.logo img{
+    height: 500px;
+    width: 400px;
+}
+
+/*aca termina NOSTROS.html*/
+
+
+
+/*aca empieza AYUDA.html*/
+.ayuda{
+    margin: 0;
+    padding: 0;
+}
+.ayuda h1{ padding-top: 20px;
+    padding: 0px 0px 0px 400px;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.ayuda img{ display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    padding: 0px 0px 0px 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*aca empieza nosotros.html*/
+h1.nosotros {
+    color: blue;
+    font-size: 50px;
+}
+
+footer .nosotros{
+    text-align: center;
+}
