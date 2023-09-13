@@ -1,0 +1,40 @@
+header {
+    /*poner en la misma linea las listas e imagenes*/
+    display: flex;
+    /*alinear listas*/
+    align-items: center;
+    /*acomodo de textos*/
+    justify-content: space-between;
+    /*borde*/
+    border-bottom: 2px solid darkmagenta;
+    /*que se achique parejo*/
+    flex-wrap: wrap;
+
+    img {
+        width: 8rem;
+        height: 5rem;
+    }
+
+    .inicio-header {
+        nav {
+            ul {
+                /*sacar viñeta de la lista*/
+                list-style-type: none;
+                /*alinear la lista*/
+                display: flex;
+
+                li {
+                    margin: 5px;
+
+                    a {
+                        color: black;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 15px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+}

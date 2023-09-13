@@ -1,0 +1,55 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+
+    .cointener img{
+        background-color: aqua;
+        max-width: 250px;
+        margin-bottom: 10px;
+        padding: 5px 10px 60px 10px;
+    }
+    h2{ 
+        position: relative;
+        top: -75px;
+    }
+
+    a{
+        position: relative;
+        top: -75px;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+
+     }
+
+
+.segunda-parte{
+
+             h2{
+                color: darkmagenta;
+                font-size:  5rem;
+                text-align: center;
+             }
+
+             .nuevos-productos{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                justify-content: center;
+                padding: 0px 0px 0px 200px;
+                column-gap: 5px;
+             
+                img{
+                max-width: 200px;
+                }
+
+
+     }
+
+}

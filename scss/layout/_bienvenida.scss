@@ -1,0 +1,25 @@
+.logo-principal {
+
+    display:flex;
+    flex-wrap: wrap;         
+     
+        img {
+             /*alto*/
+             height: 500px;
+             /*ancho*/
+              width: 400px;
+       }
+
+        h1 {
+             color: darkmagenta;
+             font-size: 60px;
+             text-align: center;
+             width: 510px;
+             height: 150px;
+             position: relative;
+             top: 100px;
+             margin-bottom: 120px;
+             margin-top: 0px;
+      }
+
+}
