@@ -1,25 +1,43 @@
 .logo-principal {
 
-    display:flex;
-    flex-wrap: wrap;         
-     
-        img {
-             /*alto*/
-             height: 500px;
-             /*ancho*/
-              width: 400px;
-       }
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        /*alto*/
+        height: 500px;
+        /*ancho*/
+        width: 400px;
+    }
+
+    h1 {
+        color: darkmagenta;
+        font-size: 60px;
+        text-align: center;
+        width: 510px;
+        height: 150px;
+        position: relative;
+        top: 100px;
+        margin-bottom: 120px;
+        margin-top: 0px;
+    }
+
+}
+@media (max-widht: 425px){ 
+    .logo-principal{
+        img{
+            height: 290px;
+            width: 200px;
+           }
 
         h1 {
-             color: darkmagenta;
-             font-size: 60px;
-             text-align: center;
-             width: 510px;
-             height: 150px;
-             position: relative;
-             top: 100px;
-             margin-bottom: 120px;
-             margin-top: 0px;
-      }
-
+            color: yellow;
+            font-size: 60px;
+            width: 214px;
+            height: 70px;
+            top: 100px;
+            margin-bottom: 120px;
+            margin-top: -80px;
+            }
+    }
 }

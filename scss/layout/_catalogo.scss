@@ -1,0 +1,37 @@
+.catalogo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0px 20px 0px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .gallery-item {
+        margin: 5px;
+        padding-left: 20%;
+
+        img{
+            max-width: 70%;
+            background-color: black;
+            padding: 5px 10px 10px 10px;
+            
+
+        }
+
+        h3{
+            font-size: 25px;
+            color:red;
+            
+
+        }
+
+        p{ color: red;
+        font-weight: 10px;}
+    }
+
+
+
+}

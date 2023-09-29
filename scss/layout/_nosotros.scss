@@ -1,0 +1,38 @@
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+
+  h1 {
+    color: darkmagenta;
+    font-size: 60px;
+    text-align: center;
+    width: 510px;
+    height: 150px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 120px;
+    margin-top: 0px;
+  }
+
+  img {
+    height: 500px;
+    width: 400px;
+  }
+
+}
+
+@media(max-width: 420px){
+  .logo{ 
+       img{
+       height: 290px;
+       width: 200px;
+       margin-bottom: -100px;
+       }
+       h1{
+        font-size: 40px;
+       }
+       p{
+        font-size: 15px;
+       }
+  }
+}
